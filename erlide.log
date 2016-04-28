@@ -1,0 +1,125 @@
+22:14:33,817 I: (ErlangCore.java:64) : Starting CORE Thread[main,6,main]
+22:14:33,820 I: (ErlangCore.java:79) : *** starting Erlide v0.29.12.201507101554 (core=0.24.13.201507101554) (model api=0.24.12.201507101554) *** (US-ASCII) ui
+22:14:33,830 I: (ErlangCore.java:86) : Started CORE
+22:14:33,831 F: (ErlangPlugin.java:88) : Core started
+22:14:35,133 F: (ErlangHostnameRetriever.java:40) : Test long hostname: null
+22:14:35,135 W: (ErlangHostnameRetriever.java:46) : Can't use null as long name
+22:14:45,536 F: (ErlangHostnameRetriever.java:40) : Test long hostname: DESKTOP-Chellong
+22:14:46,572 W: (ErlangHostnameRetriever.java:46) : Can't use DESKTOP-Chellong as long name
+22:14:46,977 F: (ErlangHostnameRetriever.java:40) : Test short hostname: DESKTOP-Chellong
+22:14:46,994 F: (HostnameUtils.java:74) : Detected:: DESKTOP-Chellong && null
+22:14:47,008 F: (BackendActivator.java:25) : Backend plugin started
+22:14:47,017 I: (ErlideUIPlugin.java:130) : Starting UI Thread[main,6,main]
+22:14:47,020 F: (ModelActivator.java:19) : Starting Erlang model api
+22:14:47,040 F: (BackendFactory.java:42) : Create ide backend 18.3.0
+22:14:47,041 F: (BackendFactory.java:56) : Create backend 21ea1__38d7f7_erlide
+22:14:47,110 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 21ea1__38d7f7_erlide@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+22:14:47,111 F: (OtpNodeProxy.java:301) : Runtime 21ea1__38d7f7_erlide@DESKTOP-Chellong starting
+22:14:47,154 F: (OtpNodeProxy.java:212) : 21ea1__38d7f7_erlide@DESKTOP-Chellong: waiting connection to peer... 
+22:14:47,563 F: (OtpNodeProxy.java:219) : connected!
+22:14:47,669 F: (OtpNodeProxy.java:306) : Runtime 21ea1__38d7f7_erlide@DESKTOP-Chellong running
+22:14:47,873 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_d38d863@DESKTOP-Chellong'}
+22:14:47,877 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:14:48,191 F: (ModelActivator.java:30) : Started model api
+22:14:48,201 I: (ErlideUIPlugin.java:152) : Started UI
+22:15:49,965 I: (InternalBuilder.java:388) : project configuration changed: doing full rebuild
+22:16:11,408 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:16:11,409 F: (BackendFactory.java:49) : Create build backend 18
+22:16:11,411 F: (BackendFactory.java:56) : Create backend 18_21ea1__3a2193
+22:16:11,413 F: (OtpNodeProxy.java:301) : Runtime 18_21ea1__3a2193@DESKTOP-Chellong starting
+22:16:11,442 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 18_21ea1__3a2193@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+22:16:11,497 F: (OtpNodeProxy.java:212) : 18_21ea1__3a2193@DESKTOP-Chellong: waiting connection to peer... 
+22:16:11,917 F: (OtpNodeProxy.java:219) : connected!
+22:16:12,287 F: (OtpNodeProxy.java:306) : Runtime 18_21ea1__3a2193@DESKTOP-Chellong running
+22:16:12,289 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_d3a21de@DESKTOP-Chellong'}
+22:16:12,289 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:16:16,369 F: (ErlTextHover.java:297) : otp doc {error,error}...
+22:16:22,869 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
+22:16:22,951 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:16:26,239 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
+22:16:28,288 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
+22:16:28,289 F: (ErlParser.java:342) : unknown: {other,{{13,13,287},1},u,[{token,'=',13,287,1,u,"=",u,u}]}
+22:16:29,021 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
+22:16:29,501 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
+22:16:29,618 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:16:32,682 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:17:22,232 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:17:23,952 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},33},[105,111,58,102,111,114,109,97,116,40,34,104,101,108,108,111,32,119,111,114,108,100,126,110,34,44,32,91,93,12290,41,46,10],[{token,string,11,254,33,[105,111,58,102,111,114,109,97,116,40,34,104,101,108,108,111,32,119,111,114,108,100,126,110,34,44,32,91,93,12290,41,46,10],[34,105,111,58,102,111,114,109,97,116,40,34,104,101,108,108,111,32,119,111,114,108,100,126,110,34,44,32,91,93,12290,41,46,10,34],11,u}]}
+22:17:24,497 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
+22:17:25,188 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,'.',11,283,1,u,".",u,u},{token,')',11,284,1,u,")",u,u},{token,dot,11,285,1,u,".",u,u}]}
+22:17:25,512 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,'.',11,283,1,u,".",u,u},{token,')',11,284,1,u,")",u,u},{token,dot,11,285,1,u,".",u,u}]}
+22:17:25,618 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:17:27,527 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
+22:17:29,847 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u}]}
+22:17:30,682 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
+22:17:30,816 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:17:33,130 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,15,"hello world~n",""hello world~n"",u,u},{token,',',9,265,1,u,",",u,u},{token,'[',9,267,1,u,"[",u,u},{token,']',9,268,1,u,"]",u,u},{token,')',9,269,1,u,")",u,u},{token,dot,9,270,1,u,".",u,u}]}
+22:17:34,421 F: (ErlParser.java:342) : unknown: {other,{{10,10,253},2},io,[{token,atom,10,253,2,io,"io",u,u},{token,':',10,255,1,u,":",u,u},{token,atom,10,256,6,format,"format",u,u},{token,'(',10,262,1,u,"(",u,u},{token,string,10,263,15,"hello world~n",""hello world~n"",u,u},{token,',',10,278,1,u,",",u,u},{token,'[',10,280,1,u,"[",u,u},{token,']',10,281,1,u,"]",u,u},{token,')',10,282,1,u,")",u,u},{token,dot,10,283,1,u,".",u,u}]}
+22:17:36,290 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,15,"hello world~n",""hello world~n"",u,u},{token,',',9,265,1,u,",",u,u},{token,'[',9,267,1,u,"[",u,u},{token,']',9,268,1,u,"]",u,u},{token,')',9,269,1,u,")",u,u},{token,dot,9,270,1,u,".",u,u}]}
+22:17:36,405 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:17:39,983 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,15,"hello world~n",""hello world~n"",u,u},{token,',',9,265,1,u,",",u,u},{token,'[',9,267,1,u,"[",u,u},{token,']',9,268,1,u,"]",u,u},{token,')',9,269,1,u,")",u,u},{token,dot,9,270,1,u,".",u,u}]}
+22:17:40,139 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,15,"hello world~n",""hello world~n"",u,u},{token,',',9,265,1,u,",",u,u},{token,'[',9,267,1,u,"[",u,u},{token,']',9,268,1,u,"]",u,u},{token,')',9,269,1,u,")",u,u},{token,dot,9,270,1,u,".",u,u}]}
+22:17:40,221 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:17:41,955 F: (ErlParser.java:342) : unknown: {other,{{10,10,241},2},io,[{token,atom,10,241,2,io,"io",u,u},{token,':',10,243,1,u,":",u,u},{token,atom,10,244,6,format,"format",u,u},{token,'(',10,250,1,u,"(",u,u},{token,string,10,251,15,"hello world~n",""hello world~n"",u,u},{token,',',10,266,1,u,",",u,u},{token,'[',10,268,1,u,"[",u,u},{token,']',10,269,1,u,"]",u,u},{token,')',10,270,1,u,")",u,u},{token,dot,10,271,1,u,".",u,u}]}
+22:17:42,065 F: (ErlParser.java:342) : unknown: {other,{{10,10,241},2},io,[{token,atom,10,241,2,io,"io",u,u},{token,':',10,243,1,u,":",u,u},{token,atom,10,244,6,format,"format",u,u},{token,'(',10,250,1,u,"(",u,u},{token,string,10,251,15,"hello world~n",""hello world~n"",u,u},{token,',',10,266,1,u,",",u,u},{token,'[',10,268,1,u,"[",u,u},{token,']',10,269,1,u,"]",u,u},{token,')',10,270,1,u,")",u,u},{token,dot,10,271,1,u,".",u,u}]}
+22:17:42,199 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:17:44,128 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:17:46,730 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:21:36,594 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:21:39,764 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:21:44,035 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:21:48,593 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:21:48,918 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:21:50,904 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:21:55,331 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:21:59,452 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/TestErlang/src/test.erl]
+22:21:59,593 F: (BackendManager.java:90) : create execution backend TestErlang
+22:21:59,594 F: (BackendFactory.java:56) : Create backend TestErlang
+22:21:59,595 F: (OtpNodeProxy.java:301) : Runtime TestErlang@DESKTOP-Chellong starting
+22:21:59,595 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, TestErlang@DESKTOP-Chellong, -setcookie, erlide] *** E:\Program Files\erlang\eclipse
+22:21:59,625 F: (OtpNodeProxy.java:212) : TestErlang@DESKTOP-Chellong: waiting connection to peer... 
+22:22:00,053 F: (OtpNodeProxy.java:219) : connected!
+22:22:00,334 F: (OtpNodeProxy.java:306) : Runtime TestErlang@DESKTOP-Chellong running
+22:22:00,335 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_d3f71c5@DESKTOP-Chellong'}
+22:22:00,335 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:22:00,655 F: (ErlConsoleManager.java:50) : console ADDED to org.erlide.backend.api.BackendData@6845dfcc
+22:22:00,701 F: (ErlangLaunchDelegate.java:111) : Started erts: TestErlang >> TestErlang
+22:30:47,744 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
+22:30:48,805 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
+22:30:49,385 F: (ErlTextHover.java:297) : otp doc {local,module,1}...
+22:30:52,406 F: (ErlTextHover.java:297) : otp doc {error,error}...
+22:33:13,604 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,6,"~f~n",""~f~n"",u,u},{token,',',9,256,1,u,",",u,u},{token,'[',9,257,1,u,"[",u,u},{token,float,9,258,4,97.1,"97.1",u,u},{token,']',9,262,1,u,"]",u,u},{token,')',9,263,1,u,")",u,u},{token,dot,9,264,1,u,".",u,u}]}
+22:33:13,635 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:33:15,557 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,6,"~f~n",""~f~n"",u,u},{token,',',9,256,1,u,",",u,u},{token,'[',9,257,1,u,"[",u,u},{token,float,9,258,4,97.1,"97.1",u,u},{token,']',9,262,1,u,"]",u,u},{token,')',9,263,1,u,")",u,u},{token,dot,9,264,1,u,".",u,u}]}
+22:33:15,651 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:33:21,099 F: (ErlTextHover.java:297) : otp doc {error,error}...
+22:33:21,802 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:33:22,427 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:33:22,927 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:34:02,480 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:34:03,120 F: (ErlParser.java:342) : unknown: {other,{{9,9,241},2},io,[{token,atom,9,241,2,io,"io",u,u},{token,':',9,243,1,u,":",u,u},{token,atom,9,244,6,format,"format",u,u},{token,'(',9,250,1,u,"(",u,u},{token,string,9,251,6,"~f~n",""~f~n"",u,u},{token,',',9,257,1,u,",",u,u},{token,'[',9,258,1,u,"[",u,u},{token,float,9,259,4,97.1,"97.1",u,u},{token,']',9,263,1,u,"]",u,u},{token,')',9,264,1,u,")",u,u},{token,dot,9,265,1,u,".",u,u}]}
+22:34:03,151 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+22:34:04,058 F: (ErlParser.java:342) : unknown: {other,{{9,9,241},2},io,[{token,atom,9,241,2,io,"io",u,u},{token,':',9,243,1,u,":",u,u},{token,atom,9,244,6,format,"format",u,u},{token,'(',9,250,1,u,"(",u,u},{token,string,9,251,6,"~f~n",""~f~n"",u,u},{token,',',9,257,1,u,",",u,u},{token,'[',9,258,1,u,"[",u,u},{token,float,9,259,4,97.1,"97.1",u,u},{token,']',9,263,1,u,"]",u,u},{token,')',9,264,1,u,")",u,u},{token,dot,9,265,1,u,".",u,u}]}
+22:34:04,151 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:34:06,042 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
+22:34:06,042 F: (ErlParser.java:342) : unknown: {other,{{9,9,241},2},io,[{token,atom,9,241,2,io,"io",u,u},{token,':',9,243,1,u,":",u,u},{token,atom,9,244,6,format,"format",u,u},{token,'(',9,250,1,u,"(",u,u},{token,string,9,251,6,"~f~n",""~f~n"",u,u},{token,',',9,257,1,u,",",u,u},{token,'[',9,258,1,u,"[",u,u},{token,float,9,259,4,97.1,"97.1",u,u},{token,']',9,263,1,u,"]",u,u},{token,')',9,264,1,u,")",u,u},{token,dot,9,265,1,u,".",u,u}]}
+22:34:06,370 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
+22:40:31,131 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
+22:40:31,646 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
+22:40:33,256 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
+22:40:34,349 F: (ErlParser.java:342) : unknown: {other,{{9,9,241},2},io,[{token,atom,9,241,2,io,"io",u,u},{token,':',9,243,1,u,":",u,u},{token,atom,9,244,6,format,"format",u,u},{token,'(',9,250,1,u,"(",u,u},{token,string,9,251,6,"~f~n",""~f~n"",u,u},{token,',',9,257,1,u,",",u,u},{token,'[',9,258,1,u,"[",u,u},{token,float,9,259,4,97.1,"97.1",u,u},{token,']',9,263,1,u,"]",u,u},{token,')',9,264,1,u,")",u,u},{token,dot,9,265,1,u,".",u,u}]}
+22:40:39,740 F: (ErlParser.java:342) : unknown: {other,{{12,12,282},1},u,[{token,')',12,282,1,u,")",u,u},{token,dot,12,283,1,u,".",u,u}]}
+22:40:41,081 F: (ErlParser.java:342) : unknown: {other,{{13,13,283},1},u,[{token,')',13,283,1,u,")",u,u},{token,dot,13,284,1,u,".",u,u}]}
+22:40:41,222 F: (ErlParser.java:342) : unknown: {other,{{13,13,283},1},u,[{token,')',13,283,1,u,")",u,u},{token,dot,13,284,1,u,".",u,u}]}
+22:40:41,315 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:40:44,213 F: (ErlParser.java:342) : unknown: {other,{{12,12,282},1},u,[{token,')',12,282,1,u,")",u,u},{token,dot,12,283,1,u,".",u,u}]}
+22:40:45,572 F: (ErlParser.java:342) : unknown: {other,{{12,12,281},1},u,[{token,')',12,281,1,u,")",u,u},{token,dot,12,282,1,u,".",u,u}]}
+22:40:45,994 F: (ErlParser.java:342) : unknown: {other,{{11,11,280},1},u,[{token,')',11,280,1,u,")",u,u},{token,dot,11,281,1,u,".",u,u}]}
+22:40:46,088 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:50:00,884 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
+22:50:00,885 F: (ErlParser.java:342) : unknown: {other,{{11,11,280},1},u,[{token,')',11,280,1,u,")",u,u},{token,dot,11,281,1,u,".",u,u}]}
+23:03:42,778 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+23:03:43,779 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+23:03:44,622 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
+23:03:45,535 F: (ErlTextHover.java:297) : otp doc {error,error}...
+23:03:49,065 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
