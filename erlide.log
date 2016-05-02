@@ -1,125 +1,1001 @@
-22:14:33,817 I: (ErlangCore.java:64) : Starting CORE Thread[main,6,main]
-22:14:33,820 I: (ErlangCore.java:79) : *** starting Erlide v0.29.12.201507101554 (core=0.24.13.201507101554) (model api=0.24.12.201507101554) *** (US-ASCII) ui
-22:14:33,830 I: (ErlangCore.java:86) : Started CORE
-22:14:33,831 F: (ErlangPlugin.java:88) : Core started
-22:14:35,133 F: (ErlangHostnameRetriever.java:40) : Test long hostname: null
-22:14:35,135 W: (ErlangHostnameRetriever.java:46) : Can't use null as long name
-22:14:45,536 F: (ErlangHostnameRetriever.java:40) : Test long hostname: DESKTOP-Chellong
-22:14:46,572 W: (ErlangHostnameRetriever.java:46) : Can't use DESKTOP-Chellong as long name
-22:14:46,977 F: (ErlangHostnameRetriever.java:40) : Test short hostname: DESKTOP-Chellong
-22:14:46,994 F: (HostnameUtils.java:74) : Detected:: DESKTOP-Chellong && null
-22:14:47,008 F: (BackendActivator.java:25) : Backend plugin started
-22:14:47,017 I: (ErlideUIPlugin.java:130) : Starting UI Thread[main,6,main]
-22:14:47,020 F: (ModelActivator.java:19) : Starting Erlang model api
-22:14:47,040 F: (BackendFactory.java:42) : Create ide backend 18.3.0
-22:14:47,041 F: (BackendFactory.java:56) : Create backend 21ea1__38d7f7_erlide
-22:14:47,110 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 21ea1__38d7f7_erlide@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
-22:14:47,111 F: (OtpNodeProxy.java:301) : Runtime 21ea1__38d7f7_erlide@DESKTOP-Chellong starting
-22:14:47,154 F: (OtpNodeProxy.java:212) : 21ea1__38d7f7_erlide@DESKTOP-Chellong: waiting connection to peer... 
-22:14:47,563 F: (OtpNodeProxy.java:219) : connected!
-22:14:47,669 F: (OtpNodeProxy.java:306) : Runtime 21ea1__38d7f7_erlide@DESKTOP-Chellong running
-22:14:47,873 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_d38d863@DESKTOP-Chellong'}
-22:14:47,877 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
-22:14:48,191 F: (ModelActivator.java:30) : Started model api
-22:14:48,201 I: (ErlideUIPlugin.java:152) : Started UI
-22:15:49,965 I: (InternalBuilder.java:388) : project configuration changed: doing full rebuild
-22:16:11,408 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:16:11,409 F: (BackendFactory.java:49) : Create build backend 18
-22:16:11,411 F: (BackendFactory.java:56) : Create backend 18_21ea1__3a2193
-22:16:11,413 F: (OtpNodeProxy.java:301) : Runtime 18_21ea1__3a2193@DESKTOP-Chellong starting
-22:16:11,442 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 18_21ea1__3a2193@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
-22:16:11,497 F: (OtpNodeProxy.java:212) : 18_21ea1__3a2193@DESKTOP-Chellong: waiting connection to peer... 
-22:16:11,917 F: (OtpNodeProxy.java:219) : connected!
-22:16:12,287 F: (OtpNodeProxy.java:306) : Runtime 18_21ea1__3a2193@DESKTOP-Chellong running
-22:16:12,289 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_d3a21de@DESKTOP-Chellong'}
-22:16:12,289 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
-22:16:16,369 F: (ErlTextHover.java:297) : otp doc {error,error}...
-22:16:22,869 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
-22:16:22,951 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:16:26,239 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
-22:16:28,288 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
-22:16:28,289 F: (ErlParser.java:342) : unknown: {other,{{13,13,287},1},u,[{token,'=',13,287,1,u,"=",u,u}]}
-22:16:29,021 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
-22:16:29,501 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
-22:16:29,618 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:16:32,682 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:17:22,232 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:17:23,952 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},33},[105,111,58,102,111,114,109,97,116,40,34,104,101,108,108,111,32,119,111,114,108,100,126,110,34,44,32,91,93,12290,41,46,10],[{token,string,11,254,33,[105,111,58,102,111,114,109,97,116,40,34,104,101,108,108,111,32,119,111,114,108,100,126,110,34,44,32,91,93,12290,41,46,10],[34,105,111,58,102,111,114,109,97,116,40,34,104,101,108,108,111,32,119,111,114,108,100,126,110,34,44,32,91,93,12290,41,46,10,34],11,u}]}
-22:17:24,497 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
-22:17:25,188 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,'.',11,283,1,u,".",u,u},{token,')',11,284,1,u,")",u,u},{token,dot,11,285,1,u,".",u,u}]}
-22:17:25,512 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,'.',11,283,1,u,".",u,u},{token,')',11,284,1,u,")",u,u},{token,dot,11,285,1,u,".",u,u}]}
-22:17:25,618 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:17:27,527 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
-22:17:29,847 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u}]}
-22:17:30,682 F: (ErlParser.java:342) : unknown: {other,{{11,11,254},2},io,[{token,atom,11,254,2,io,"io",u,u},{token,':',11,256,1,u,":",u,u},{token,atom,11,257,6,format,"format",u,u},{token,'(',11,263,1,u,"(",u,u},{token,string,11,264,15,"hello world~n",""hello world~n"",u,u},{token,',',11,279,1,u,",",u,u},{token,'[',11,281,1,u,"[",u,u},{token,']',11,282,1,u,"]",u,u},{token,')',11,283,1,u,")",u,u},{token,dot,11,284,1,u,".",u,u}]}
-22:17:30,816 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:17:33,130 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,15,"hello world~n",""hello world~n"",u,u},{token,',',9,265,1,u,",",u,u},{token,'[',9,267,1,u,"[",u,u},{token,']',9,268,1,u,"]",u,u},{token,')',9,269,1,u,")",u,u},{token,dot,9,270,1,u,".",u,u}]}
-22:17:34,421 F: (ErlParser.java:342) : unknown: {other,{{10,10,253},2},io,[{token,atom,10,253,2,io,"io",u,u},{token,':',10,255,1,u,":",u,u},{token,atom,10,256,6,format,"format",u,u},{token,'(',10,262,1,u,"(",u,u},{token,string,10,263,15,"hello world~n",""hello world~n"",u,u},{token,',',10,278,1,u,",",u,u},{token,'[',10,280,1,u,"[",u,u},{token,']',10,281,1,u,"]",u,u},{token,')',10,282,1,u,")",u,u},{token,dot,10,283,1,u,".",u,u}]}
-22:17:36,290 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,15,"hello world~n",""hello world~n"",u,u},{token,',',9,265,1,u,",",u,u},{token,'[',9,267,1,u,"[",u,u},{token,']',9,268,1,u,"]",u,u},{token,')',9,269,1,u,")",u,u},{token,dot,9,270,1,u,".",u,u}]}
-22:17:36,405 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:17:39,983 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,15,"hello world~n",""hello world~n"",u,u},{token,',',9,265,1,u,",",u,u},{token,'[',9,267,1,u,"[",u,u},{token,']',9,268,1,u,"]",u,u},{token,')',9,269,1,u,")",u,u},{token,dot,9,270,1,u,".",u,u}]}
-22:17:40,139 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,15,"hello world~n",""hello world~n"",u,u},{token,',',9,265,1,u,",",u,u},{token,'[',9,267,1,u,"[",u,u},{token,']',9,268,1,u,"]",u,u},{token,')',9,269,1,u,")",u,u},{token,dot,9,270,1,u,".",u,u}]}
-22:17:40,221 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:17:41,955 F: (ErlParser.java:342) : unknown: {other,{{10,10,241},2},io,[{token,atom,10,241,2,io,"io",u,u},{token,':',10,243,1,u,":",u,u},{token,atom,10,244,6,format,"format",u,u},{token,'(',10,250,1,u,"(",u,u},{token,string,10,251,15,"hello world~n",""hello world~n"",u,u},{token,',',10,266,1,u,",",u,u},{token,'[',10,268,1,u,"[",u,u},{token,']',10,269,1,u,"]",u,u},{token,')',10,270,1,u,")",u,u},{token,dot,10,271,1,u,".",u,u}]}
-22:17:42,065 F: (ErlParser.java:342) : unknown: {other,{{10,10,241},2},io,[{token,atom,10,241,2,io,"io",u,u},{token,':',10,243,1,u,":",u,u},{token,atom,10,244,6,format,"format",u,u},{token,'(',10,250,1,u,"(",u,u},{token,string,10,251,15,"hello world~n",""hello world~n"",u,u},{token,',',10,266,1,u,",",u,u},{token,'[',10,268,1,u,"[",u,u},{token,']',10,269,1,u,"]",u,u},{token,')',10,270,1,u,")",u,u},{token,dot,10,271,1,u,".",u,u}]}
-22:17:42,199 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:17:44,128 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:17:46,730 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:21:36,594 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:21:39,764 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:21:44,035 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:21:48,593 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:21:48,918 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:21:50,904 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:21:55,331 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:21:59,452 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/TestErlang/src/test.erl]
-22:21:59,593 F: (BackendManager.java:90) : create execution backend TestErlang
-22:21:59,594 F: (BackendFactory.java:56) : Create backend TestErlang
-22:21:59,595 F: (OtpNodeProxy.java:301) : Runtime TestErlang@DESKTOP-Chellong starting
-22:21:59,595 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, TestErlang@DESKTOP-Chellong, -setcookie, erlide] *** E:\Program Files\erlang\eclipse
-22:21:59,625 F: (OtpNodeProxy.java:212) : TestErlang@DESKTOP-Chellong: waiting connection to peer... 
-22:22:00,053 F: (OtpNodeProxy.java:219) : connected!
-22:22:00,334 F: (OtpNodeProxy.java:306) : Runtime TestErlang@DESKTOP-Chellong running
-22:22:00,335 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_d3f71c5@DESKTOP-Chellong'}
-22:22:00,335 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
-22:22:00,655 F: (ErlConsoleManager.java:50) : console ADDED to org.erlide.backend.api.BackendData@6845dfcc
-22:22:00,701 F: (ErlangLaunchDelegate.java:111) : Started erts: TestErlang >> TestErlang
-22:30:47,744 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
-22:30:48,805 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
-22:30:49,385 F: (ErlTextHover.java:297) : otp doc {local,module,1}...
-22:30:52,406 F: (ErlTextHover.java:297) : otp doc {error,error}...
-22:33:13,604 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,6,"~f~n",""~f~n"",u,u},{token,',',9,256,1,u,",",u,u},{token,'[',9,257,1,u,"[",u,u},{token,float,9,258,4,97.1,"97.1",u,u},{token,']',9,262,1,u,"]",u,u},{token,')',9,263,1,u,")",u,u},{token,dot,9,264,1,u,".",u,u}]}
-22:33:13,635 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:33:15,557 F: (ErlParser.java:342) : unknown: {other,{{9,9,240},2},io,[{token,atom,9,240,2,io,"io",u,u},{token,':',9,242,1,u,":",u,u},{token,atom,9,243,6,format,"format",u,u},{token,'(',9,249,1,u,"(",u,u},{token,string,9,250,6,"~f~n",""~f~n"",u,u},{token,',',9,256,1,u,",",u,u},{token,'[',9,257,1,u,"[",u,u},{token,float,9,258,4,97.1,"97.1",u,u},{token,']',9,262,1,u,"]",u,u},{token,')',9,263,1,u,")",u,u},{token,dot,9,264,1,u,".",u,u}]}
-22:33:15,651 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:33:21,099 F: (ErlTextHover.java:297) : otp doc {error,error}...
-22:33:21,802 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:33:22,427 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:33:22,927 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:34:02,480 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:34:03,120 F: (ErlParser.java:342) : unknown: {other,{{9,9,241},2},io,[{token,atom,9,241,2,io,"io",u,u},{token,':',9,243,1,u,":",u,u},{token,atom,9,244,6,format,"format",u,u},{token,'(',9,250,1,u,"(",u,u},{token,string,9,251,6,"~f~n",""~f~n"",u,u},{token,',',9,257,1,u,",",u,u},{token,'[',9,258,1,u,"[",u,u},{token,float,9,259,4,97.1,"97.1",u,u},{token,']',9,263,1,u,"]",u,u},{token,')',9,264,1,u,")",u,u},{token,dot,9,265,1,u,".",u,u}]}
-22:34:03,151 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-22:34:04,058 F: (ErlParser.java:342) : unknown: {other,{{9,9,241},2},io,[{token,atom,9,241,2,io,"io",u,u},{token,':',9,243,1,u,":",u,u},{token,atom,9,244,6,format,"format",u,u},{token,'(',9,250,1,u,"(",u,u},{token,string,9,251,6,"~f~n",""~f~n"",u,u},{token,',',9,257,1,u,",",u,u},{token,'[',9,258,1,u,"[",u,u},{token,float,9,259,4,97.1,"97.1",u,u},{token,']',9,263,1,u,"]",u,u},{token,')',9,264,1,u,")",u,u},{token,dot,9,265,1,u,".",u,u}]}
-22:34:04,151 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:34:06,042 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
-22:34:06,042 F: (ErlParser.java:342) : unknown: {other,{{9,9,241},2},io,[{token,atom,9,241,2,io,"io",u,u},{token,':',9,243,1,u,":",u,u},{token,atom,9,244,6,format,"format",u,u},{token,'(',9,250,1,u,"(",u,u},{token,string,9,251,6,"~f~n",""~f~n"",u,u},{token,',',9,257,1,u,",",u,u},{token,'[',9,258,1,u,"[",u,u},{token,float,9,259,4,97.1,"97.1",u,u},{token,']',9,263,1,u,"]",u,u},{token,')',9,264,1,u,")",u,u},{token,dot,9,265,1,u,".",u,u}]}
-22:34:06,370 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
-22:40:31,131 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
-22:40:31,646 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
-22:40:33,256 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
-22:40:34,349 F: (ErlParser.java:342) : unknown: {other,{{9,9,241},2},io,[{token,atom,9,241,2,io,"io",u,u},{token,':',9,243,1,u,":",u,u},{token,atom,9,244,6,format,"format",u,u},{token,'(',9,250,1,u,"(",u,u},{token,string,9,251,6,"~f~n",""~f~n"",u,u},{token,',',9,257,1,u,",",u,u},{token,'[',9,258,1,u,"[",u,u},{token,float,9,259,4,97.1,"97.1",u,u},{token,']',9,263,1,u,"]",u,u},{token,')',9,264,1,u,")",u,u},{token,dot,9,265,1,u,".",u,u}]}
-22:40:39,740 F: (ErlParser.java:342) : unknown: {other,{{12,12,282},1},u,[{token,')',12,282,1,u,")",u,u},{token,dot,12,283,1,u,".",u,u}]}
-22:40:41,081 F: (ErlParser.java:342) : unknown: {other,{{13,13,283},1},u,[{token,')',13,283,1,u,")",u,u},{token,dot,13,284,1,u,".",u,u}]}
-22:40:41,222 F: (ErlParser.java:342) : unknown: {other,{{13,13,283},1},u,[{token,')',13,283,1,u,")",u,u},{token,dot,13,284,1,u,".",u,u}]}
-22:40:41,315 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:40:44,213 F: (ErlParser.java:342) : unknown: {other,{{12,12,282},1},u,[{token,')',12,282,1,u,")",u,u},{token,dot,12,283,1,u,".",u,u}]}
-22:40:45,572 F: (ErlParser.java:342) : unknown: {other,{{12,12,281},1},u,[{token,')',12,281,1,u,")",u,u},{token,dot,12,282,1,u,".",u,u}]}
-22:40:45,994 F: (ErlParser.java:342) : unknown: {other,{{11,11,280},1},u,[{token,')',11,280,1,u,")",u,u},{token,dot,11,281,1,u,".",u,u}]}
-22:40:46,088 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-22:50:00,884 F: (ErlTextHover.java:297) : otp doc {local,export,1}...
-22:50:00,885 F: (ErlParser.java:342) : unknown: {other,{{11,11,280},1},u,[{token,')',11,280,1,u,")",u,u},{token,dot,11,281,1,u,".",u,u}]}
-23:03:42,778 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-23:03:43,779 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-23:03:44,622 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="fwrite-1"></a><span class="bold_code...
-23:03:45,535 F: (ErlTextHover.java:297) : otp doc {error,error}...
-23:03:49,065 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+21:36:14,987 I: (ErlangCore.java:64) : Starting CORE Thread[main,6,main]
+21:36:15,014 I: (ErlangCore.java:79) : *** starting Erlide v0.29.12.201507101554 (core=0.24.13.201507101554) (model api=0.24.12.201507101554) *** (US-ASCII) ui
+21:36:15,022 I: (ErlangCore.java:86) : Started CORE
+21:36:15,023 F: (ErlangPlugin.java:88) : Core started
+21:36:18,026 F: (ErlangHostnameRetriever.java:40) : Test long hostname: null
+21:36:18,029 W: (ErlangHostnameRetriever.java:46) : Can't use null as long name
+21:36:19,492 F: (ErlangHostnameRetriever.java:40) : Test long hostname: DESKTOP-Chellong
+21:36:20,806 W: (ErlangHostnameRetriever.java:46) : Can't use DESKTOP-Chellong as long name
+21:36:21,179 F: (ErlangHostnameRetriever.java:40) : Test short hostname: DESKTOP-Chellong
+21:36:21,194 F: (HostnameUtils.java:74) : Detected:: DESKTOP-Chellong && null
+21:36:21,283 F: (BackendActivator.java:25) : Backend plugin started
+21:36:21,311 I: (ErlideUIPlugin.java:130) : Starting UI Thread[main,6,main]
+21:36:21,314 F: (ModelActivator.java:19) : Starting Erlang model api
+21:36:21,331 F: (BackendFactory.java:42) : Create ide backend 18.3.0
+21:36:21,331 F: (BackendFactory.java:56) : Create backend 21ea1__af194b_erlide
+21:36:21,649 F: (OtpNodeProxy.java:301) : Runtime 21ea1__af194b_erlide@DESKTOP-Chellong starting
+21:36:21,648 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 21ea1__af194b_erlide@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+21:36:21,672 F: (OtpNodeProxy.java:212) : 21ea1__af194b_erlide@DESKTOP-Chellong: waiting connection to peer... 
+21:36:22,081 F: (OtpNodeProxy.java:219) : connected!
+21:36:22,188 F: (OtpNodeProxy.java:306) : Runtime 21ea1__af194b_erlide@DESKTOP-Chellong running
+21:36:22,465 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_1af1a9e@DESKTOP-Chellong'}
+21:36:22,466 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+21:36:22,708 F: (ModelActivator.java:30) : Started model api
+21:36:22,743 I: (ErlideUIPlugin.java:152) : Started UI
+21:36:40,884 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/TestErlang/src/lib_misc.erl]
+21:36:40,967 F: (BackendManager.java:90) : create execution backend TestErlang
+21:36:40,967 F: (BackendFactory.java:56) : Create backend TestErlang
+21:36:40,969 F: (OtpNodeProxy.java:301) : Runtime TestErlang@DESKTOP-Chellong starting
+21:36:40,969 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, TestErlang@DESKTOP-Chellong, -setcookie, erlide] *** E:\Program Files\erlang\eclipse
+21:36:41,025 F: (OtpNodeProxy.java:212) : TestErlang@DESKTOP-Chellong: waiting connection to peer... 
+21:36:41,449 F: (OtpNodeProxy.java:219) : connected!
+21:36:41,552 F: (OtpNodeProxy.java:306) : Runtime TestErlang@DESKTOP-Chellong running
+21:36:41,706 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_1af663c@DESKTOP-Chellong'}
+21:36:41,707 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+21:36:42,052 F: (ErlConsoleManager.java:50) : console ADDED to org.erlide.backend.api.BackendData@3ad5f99
+21:36:42,140 F: (ErlangLaunchDelegate.java:111) : Started erts: TestErlang >> TestErlang
+21:37:54,185 F: (BackendFactory.java:49) : Create build backend 18
+21:37:54,186 F: (BackendFactory.java:56) : Create backend 18_21ea1__b0840a
+21:37:54,187 F: (OtpNodeProxy.java:301) : Runtime 18_21ea1__b0840a@DESKTOP-Chellong starting
+21:37:54,188 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 18_21ea1__b0840a@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+21:37:54,210 F: (OtpNodeProxy.java:212) : 18_21ea1__b0840a@DESKTOP-Chellong: waiting connection to peer... 
+21:37:54,628 F: (OtpNodeProxy.java:219) : connected!
+21:37:54,730 F: (OtpNodeProxy.java:306) : Runtime 18_21ea1__b0840a@DESKTOP-Chellong running
+21:37:54,939 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_1b0841e@DESKTOP-Chellong'}
+21:37:54,939 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+21:39:32,751 F: (OtpNodeProxy.java:311) : Runtime TestErlang@DESKTOP-Chellong stopping
+21:39:33,279 W: (OtpNodeProxy.java:280) : Runtime TestErlang@DESKTOP-Chellong crashed, exit code: 1.
+22:01:19,016 F: (ErlParser.java:342) : unknown: {other,{{40,40,876},2},36,[{token,char,40,876,2,36,"$$",u,u}]}
+22:02:31,405 F: (ErlParser.java:342) : unknown: {other,{{41,41,886},4},maxa,[{token,atom,41,886,4,maxa,"maxa",u,u}]}
+22:02:31,917 F: (ErlParser.java:342) : unknown: {other,{{41,41,886},3},max,[{token,atom,41,886,3,max,"max",u,u}]}
+22:02:32,773 F: (ErlParser.java:342) : unknown: {other,{{41,41,886},4},max9,[{token,atom,41,886,4,max9,"max9",u,u},{token,')',41,890,1,u,")",u,u}]}
+22:02:33,653 F: (ErlParser.java:342) : unknown: {other,{{41,41,886},3},max,[{token,atom,41,886,3,max,"max",u,u}]}
+22:02:53,743 F: (ErlParser.java:342) : unknown: {other,{{41,41,886},26},[109,97,120,40,88,44,89,41,32,119,104,101,110,32,88,32,62,12288,65369,32,32,32,32,32,32,10],[{token,string,41,886,26,[109,97,120,40,88,44,89,41,32,119,104,101,110,32,88,32,62,12288,65369,32,32,32,32,32,32,10],[34,109,97,120,40,88,44,89,41,32,119,104,101,110,32,88,32,62,12288,65369,32,32,32,32,32,32,10,34],41,u}]}
+22:02:55,407 F: (ErlParser.java:342) : unknown: {other,{{41,41,886},25},[109,97,120,40,88,44,89,41,32,119,104,101,110,32,88,32,62,12288,32,32,32,32,32,32,10],[{token,string,41,886,25,[109,97,120,40,88,44,89,41,32,119,104,101,110,32,88,32,62,12288,32,32,32,32,32,32,10],[34,109,97,120,40,88,44,89,41,32,119,104,101,110,32,88,32,62,12288,32,32,32,32,32,32,10,34],41,u}]}
+22:03:29,638 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:03:33,435 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="max-2"></a><span class="bold_code">m...
+22:03:36,660 F: (ErlTextHover.java:297) : otp doc {error,error}...
+22:03:37,719 F: (ErlTextHover.java:297) : otp doc {local,perms,1}...
+22:03:38,356 F: (ErlTextHover.java:297) : otp doc {local,perms,1}...
+22:03:42,080 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:03:43,535 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="max-2"></a><span class="bold_code">m...
+22:03:47,454 F: (ErlTextHover.java:297) : otp doc {error,error}...
+22:03:48,835 F: (ErlTextHover.java:297) : otp doc {error,error}...
+22:03:59,180 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="max-2"></a><span class="bold_code">m...
+22:04:25,799 F: (ErlTextHover.java:297) : otp doc {error,{variable,'X'}}...
+22:04:31,167 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
+22:04:42,252 F: (ErlTextHover.java:297) : otp doc {error,error}...
+22:04:49,779 F: (ErlangNodeLaunchShortcut.java:61) : ** Launch:: [L/TestErlang/src/lib_misc.erl]
+22:04:49,845 F: (BackendManager.java:90) : create execution backend TestErlang
+22:04:49,846 F: (BackendFactory.java:56) : Create backend TestErlang
+22:04:49,846 F: (OtpNodeProxy.java:301) : Runtime TestErlang@DESKTOP-Chellong starting
+22:04:49,847 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, TestErlang@DESKTOP-Chellong, -setcookie, erlide] *** E:\Program Files\erlang\eclipse
+22:04:49,874 F: (OtpNodeProxy.java:212) : TestErlang@DESKTOP-Chellong: waiting connection to peer... 
+22:04:50,293 F: (OtpNodeProxy.java:219) : connected!
+22:04:50,559 F: (OtpNodeProxy.java:306) : Runtime TestErlang@DESKTOP-Chellong running
+22:04:50,559 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_1c92b4a@DESKTOP-Chellong'}
+22:04:50,560 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:04:50,895 F: (ErlConsoleManager.java:50) : console ADDED to org.erlide.backend.api.BackendData@197cf24e
+22:04:50,922 F: (ErlangLaunchDelegate.java:111) : Started erts: TestErlang >> TestErlang
+22:05:45,464 F: (OtpNodeProxy.java:311) : Runtime TestErlang@DESKTOP-Chellong stopping
+22:05:54,399 W: (OtpNodeProxy.java:280) : Runtime TestErlang@DESKTOP-Chellong crashed, exit code: 1.
+22:18:24,819 F: (OtpNodeProxy.java:301) : Runtime 21ea1__af194b_erlide@DESKTOP-Chellong starting
+22:18:24,820 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 21ea1__af194b_erlide@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+22:18:24,836 F: (OtpNodeProxy.java:212) : 21ea1__af194b_erlide@DESKTOP-Chellong: waiting connection to peer... 
+22:18:25,254 F: (OtpNodeProxy.java:219) : connected!
+22:18:25,355 F: (OtpNodeProxy.java:306) : Runtime 21ea1__af194b_erlide@DESKTOP-Chellong running
+22:18:25,545 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_1af1a9e@DESKTOP-Chellong'}
+22:18:25,546 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:18:26,511 F: (OtpNodeProxy.java:301) : Runtime 18_21ea1__b0840a@DESKTOP-Chellong starting
+22:18:26,512 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 18_21ea1__b0840a@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+22:18:26,518 F: (OtpNodeProxy.java:212) : 18_21ea1__b0840a@DESKTOP-Chellong: waiting connection to peer... 
+22:18:26,936 F: (OtpNodeProxy.java:219) : connected!
+22:18:27,037 F: (OtpNodeProxy.java:306) : Runtime 18_21ea1__b0840a@DESKTOP-Chellong running
+22:18:27,227 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_1b0841e@DESKTOP-Chellong'}
+22:18:27,228 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:18:31,564 F: (OtpNodeProxy.java:301) : Runtime 21ea1__af194b_erlide@DESKTOP-Chellong starting
+22:18:31,565 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 21ea1__af194b_erlide@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+22:18:31,580 F: (OtpNodeProxy.java:212) : 21ea1__af194b_erlide@DESKTOP-Chellong: waiting connection to peer... 
+22:18:31,999 F: (OtpNodeProxy.java:219) : connected!
+22:18:32,100 F: (OtpNodeProxy.java:306) : Runtime 21ea1__af194b_erlide@DESKTOP-Chellong running
+22:18:32,290 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_1af1a9e@DESKTOP-Chellong'}
+22:18:32,290 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:18:33,893 W: (OtpNodeProxy.java:280) : Runtime 21ea1__af194b_erlide@DESKTOP-Chellong crashed, exit code: 1.
+22:18:33,911 I: (ConsoleMessageReporter.java:13) : 4::: Backend '21ea1__af194b_erlide@DESKTOP-Chellong' is down
+
+Please report the problem and restart Eclipse.
+If this happened at startup, it is likely that your network is misconfigured or uses 'strange' host names.
+
+Please check the pageWindow->preferences->erlang->network for hints about that.
+
+Also, check if you can create and connect two erlang nodes on your machine using "erl -name foo1" and "erl -name foo2".
+
+If this happened after a while, the Erlang runtime might have run out of memory.
+
+If an error report named '北飞的候鸟_<timestamp>.txt' has been created in your home directory, please consider reporting the problem. 
+http://www.assembla.com/spaces/erlide/support/tickets
+------
+22:18:33,912 S: (ErlRuntimeReporter.java:70) : Backend '21ea1__af194b_erlide@DESKTOP-Chellong' crashed with exit code 1.
+22:18:33,921 I: (ConsoleMessageReporter.java:13) : 4::: Backend '21ea1__af194b_erlide@DESKTOP-Chellong' crashed with exit code 1.
+
+This error is not recoverable, please restart your Eclipse instance.
+
+
+An error log has been created at C:\Users\北飞的候鸟/北飞的候鸟_20160502_221833.txt. Please report the problem so that we can fix it.
+http://www.assembla.com/spaces/erlide/support/tickets
+------
+22:18:36,652 F: (OtpNodeProxy.java:301) : Runtime 18_21ea1__b0840a@DESKTOP-Chellong starting
+22:18:36,654 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 18_21ea1__b0840a@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+22:18:36,693 F: (OtpNodeProxy.java:212) : 18_21ea1__b0840a@DESKTOP-Chellong: waiting connection to peer... 
+22:18:37,532 F: (OtpNodeProxy.java:219) : connected!
+22:18:37,633 F: (OtpNodeProxy.java:306) : Runtime 18_21ea1__b0840a@DESKTOP-Chellong running
+22:18:37,820 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_1b0841e@DESKTOP-Chellong'}
+22:18:37,820 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+22:46:40,962 F: (ErlideScanner.java:58) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.create(ErlideScanner.java:54)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.<init>(ErlScanner.java:27)
+	at org.erlide.engine.internal.services.parsing.ScannerProvider.get(ScannerProvider.java:17)
+	at org.erlide.ui.editors.scratchpad.ErlangScratchPad.getNewScanner(ErlangScratchPad.java:207)
+	at org.erlide.ui.editors.erl.AbstractErlangEditor.getScanner(AbstractErlangEditor.java:49)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconcilingStrategy.initialReconcile(ErlReconcilingStrategy.java:60)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconciler.initialProcess(ErlReconciler.java:544)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconciler$ReconcilerThread.run(ErlReconciler.java:157)
+22:46:40,962 F: (ErlideScanner.java:47) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.initialScan(ErlideScanner.java:42)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.initialScan(ErlScanner.java:34)
+	at org.erlide.ui.editors.scratchpad.ErlangScratchPad.getNewScanner(ErlangScratchPad.java:208)
+	at org.erlide.ui.editors.erl.AbstractErlangEditor.getScanner(AbstractErlangEditor.java:49)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconcilingStrategy.initialReconcile(ErlReconcilingStrategy.java:60)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconciler.initialProcess(ErlReconciler.java:544)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconciler$ReconcilerThread.run(ErlReconciler.java:157)
+22:47:17,157 F: (ErlideScanner.java:58) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.create(ErlideScanner.java:54)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.<init>(ErlScanner.java:27)
+	at org.erlide.engine.internal.services.parsing.ScannerProvider.get(ScannerProvider.java:17)
+	at org.erlide.engine.internal.model.erlang.ErlModule.getNewScanner(ErlModule.java:517)
+	at org.erlide.engine.internal.model.erlang.ErlModule.createScanner(ErlModule.java:511)
+	at org.erlide.ui.editors.erl.ErlangEditor.getModule(ErlangEditor.java:577)
+	at org.erlide.ui.editors.erl.ErlangEditor.doSetInput(ErlangEditor.java:524)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3220)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.ui.internal.WorkbenchWindow$13.run(WorkbenchWindow.java:2157)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3238)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3265)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:390)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:95)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:488)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:454)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:705)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:392)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1145)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3210)
+	at org.eclipse.ui.internal.WorkbenchPage.access$23(WorkbenchPage.java:3125)
+	at org.eclipse.ui.internal.WorkbenchPage$9.run(WorkbenchPage.java:3107)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3102)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3066)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:200)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:125)
+	at org.erlide.ui.navigator.actions.OpenErlangAction.run(OpenErlangAction.java:93)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+22:47:17,160 F: (ErlideScanner.java:47) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.initialScan(ErlideScanner.java:42)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.initialScan(ErlScanner.java:34)
+	at org.erlide.engine.internal.model.erlang.ErlModule.getNewScanner(ErlModule.java:518)
+	at org.erlide.engine.internal.model.erlang.ErlModule.createScanner(ErlModule.java:511)
+	at org.erlide.ui.editors.erl.ErlangEditor.getModule(ErlangEditor.java:577)
+	at org.erlide.ui.editors.erl.ErlangEditor.doSetInput(ErlangEditor.java:524)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3220)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.ui.internal.WorkbenchWindow$13.run(WorkbenchWindow.java:2157)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3238)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3265)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:390)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:95)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:488)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:454)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:705)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:392)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1145)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3210)
+	at org.eclipse.ui.internal.WorkbenchPage.access$23(WorkbenchPage.java:3125)
+	at org.eclipse.ui.internal.WorkbenchPage$9.run(WorkbenchPage.java:3107)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3102)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3066)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:200)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:125)
+	at org.erlide.ui.navigator.actions.OpenErlangAction.run(OpenErlangAction.java:93)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+22:47:17,162 F: (ErlideScanner.java:68) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.addref(ErlideScanner.java:64)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.addref(ErlScanner.java:54)
+	at org.erlide.engine.internal.model.erlang.ErlModule.getScanner(ErlModule.java:501)
+	at org.erlide.ui.editors.erl.ErlangEditor.getModule(ErlangEditor.java:578)
+	at org.erlide.ui.editors.erl.ErlangEditor.doSetInput(ErlangEditor.java:524)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3220)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.ui.internal.WorkbenchWindow$13.run(WorkbenchWindow.java:2157)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3238)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3265)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:390)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:95)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:488)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:454)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:705)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:392)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1145)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3210)
+	at org.eclipse.ui.internal.WorkbenchPage.access$23(WorkbenchPage.java:3125)
+	at org.eclipse.ui.internal.WorkbenchPage$9.run(WorkbenchPage.java:3107)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3102)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3066)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:200)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:125)
+	at org.erlide.ui.navigator.actions.OpenErlangAction.run(OpenErlangAction.java:93)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+22:47:17,164 F: (ErlideScanner.java:78) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.dispose(ErlideScanner.java:74)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.dispose(ErlScanner.java:39)
+	at org.erlide.ui.editors.erl.ErlangEditor.getModule(ErlangEditor.java:579)
+	at org.erlide.ui.editors.erl.ErlangEditor.doSetInput(ErlangEditor.java:524)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$19.run(AbstractTextEditor.java:3220)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:466)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:374)
+	at org.eclipse.ui.internal.WorkbenchWindow$13.run(WorkbenchWindow.java:2157)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2153)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.internalInit(AbstractTextEditor.java:3238)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.init(AbstractTextEditor.java:3265)
+	at org.eclipse.ui.internal.EditorReference.initialize(EditorReference.java:390)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:305)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:95)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:488)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:454)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:705)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:392)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1145)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3210)
+	at org.eclipse.ui.internal.WorkbenchPage.access$23(WorkbenchPage.java:3125)
+	at org.eclipse.ui.internal.WorkbenchPage$9.run(WorkbenchPage.java:3107)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3102)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3066)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:200)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:125)
+	at org.erlide.ui.navigator.actions.OpenErlangAction.run(OpenErlangAction.java:93)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+22:47:17,269 W: (ErlideNoparse.java:31) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.engine.internal.services.parsing.ErlideNoparse.initialParse(ErlideNoparse.java:25)
+	at org.erlide.engine.internal.services.parsing.ErlParser.parse(ErlParser.java:106)
+	at org.erlide.engine.internal.model.erlang.ErlModule.internalBuildStructure(ErlModule.java:116)
+	at org.erlide.engine.internal.model.erlang.ErlModule.buildStructure(ErlModule.java:166)
+	at org.erlide.engine.internal.model.root.Openable.open(Openable.java:80)
+	at org.erlide.ui.internal.folding.DefaultErlangFoldingStructureProvider.projectionEnabled(DefaultErlangFoldingStructureProvider.java:543)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.fireProjectionEnabled(ProjectionViewer.java:488)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.enableProjection(ProjectionViewer.java:536)
+	at org.eclipse.jface.text.source.projection.ProjectionViewer.doOperation(ProjectionViewer.java:1408)
+	at org.erlide.ui.editors.erl.ErlangEditor.createPartControl(ErlangEditor.java:940)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:141)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:99)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:327)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.inject(InjectorImpl.java:120)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:337)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:258)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:162)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:104)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:73)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:55)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:127)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:983)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:662)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:766)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$2(PartRenderingEngine.java:737)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$7.run(PartRenderingEngine.java:731)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:715)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:95)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:171)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:488)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:454)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:705)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:392)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1145)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3210)
+	at org.eclipse.ui.internal.WorkbenchPage.access$23(WorkbenchPage.java:3125)
+	at org.eclipse.ui.internal.WorkbenchPage$9.run(WorkbenchPage.java:3107)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3102)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3066)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3056)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:200)
+	at org.erlide.ui.editors.util.EditorUtility.openInEditor(EditorUtility.java:125)
+	at org.erlide.ui.navigator.actions.OpenErlangAction.run(OpenErlangAction.java:93)
+	at org.eclipse.ui.actions.RetargetAction.run(RetargetAction.java:229)
+	at org.eclipse.ui.navigator.CommonNavigatorManager$3.open(CommonNavigatorManager.java:185)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:48)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:50)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:178)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1142)
+	at org.eclipse.ui.navigator.CommonViewer.handleOpen(CommonViewer.java:462)
+	at org.eclipse.jface.viewers.StructuredViewer$6.handleOpen(StructuredViewer.java:1249)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:278)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:313)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+22:47:17,271 S: (ErlParser.java:116) : error when parsing c:/Program Files/erl7.3/lib/tools-2.8.3/src/cover.erl: null
+22:47:17,888 F: (ErlideScanner.java:68) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.addref(ErlideScanner.java:64)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.addref(ErlScanner.java:54)
+	at org.erlide.engine.internal.model.erlang.ErlModule.getScanner(ErlModule.java:501)
+	at org.erlide.ui.editors.erl.ErlangEditor.getNewScanner(ErlangEditor.java:1264)
+	at org.erlide.ui.editors.erl.AbstractErlangEditor.getScanner(AbstractErlangEditor.java:49)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconcilingStrategy.initialReconcile(ErlReconcilingStrategy.java:60)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconciler.initialProcess(ErlReconciler.java:544)
+	at org.erlide.ui.editors.internal.reconciling.ErlReconciler$ReconcilerThread.run(ErlReconciler.java:157)
+22:47:23,223 F: (ErlideScanner.java:78) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.dispose(ErlideScanner.java:74)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.dispose(ErlScanner.java:39)
+	at org.erlide.engine.internal.model.erlang.ErlModule.dispose(ErlModule.java:437)
+	at org.erlide.ui.editors.erl.ErlangEditor.disposeModule(ErlangEditor.java:218)
+	at org.erlide.ui.editors.erl.ErlangEditor.dispose(ErlangEditor.java:186)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:225)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:379)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:180)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:158)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:82)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:464)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:144)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$1.handleEvent(PartRenderingEngine.java:160)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:187)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:156)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4734)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:218)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:81)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setToBeRendered(UIElementImpl.java:303)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1281)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.hidePart(PartServiceImpl.java:1215)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.closePart(StackRenderer.java:1218)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.access$3(StackRenderer.java:1200)
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer$12.close(StackRenderer.java:1092)
+	at org.eclipse.swt.custom.CTabFolder.onMouse(CTabFolder.java:1874)
+	at org.eclipse.swt.custom.CTabFolder$1.handleEvent(CTabFolder.java:288)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+23:12:46,290 F: (ErlideScanner.java:78) : backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+org.erlide.runtime.rpc.RpcException: backend 21ea1__af194b_erlide@DESKTOP-Chellong down
+	at org.erlide.runtime.internal.rpc.OtpRpc.checkConnected(OtpRpc.java:258)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:145)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:169)
+	at org.erlide.runtime.internal.rpc.OtpRpc.call(OtpRpc.java:244)
+	at org.erlide.engine.internal.services.parsing.ErlideScanner.dispose(ErlideScanner.java:74)
+	at org.erlide.engine.internal.services.parsing.ErlScanner.dispose(ErlScanner.java:39)
+	at org.erlide.engine.internal.model.erlang.ErlModule.dispose(ErlModule.java:437)
+	at org.erlide.ui.editors.erl.ErlangEditor.disposeModule(ErlangEditor.java:218)
+	at org.erlide.ui.editors.erl.ErlangEditor.dispose(ErlangEditor.java:186)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:225)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:379)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:869)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.uninject(InjectorImpl.java:180)
+	at org.eclipse.e4.core.internal.di.Requestor.uninject(Requestor.java:158)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:82)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.removeListenersTo(EclipseContext.java:464)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.uninject(ContextInjectionFactory.java:144)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:118)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:933)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:887)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:894)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1937)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1560)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$15(WorkbenchWindow.java:1527)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1592)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1589)
+	at org.eclipse.ui.internal.Workbench$14.run(Workbench.java:1155)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1137)
+	at org.eclipse.ui.internal.Workbench.access$21(Workbench.java:1079)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1410)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1407)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1380)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1556)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$15(WorkbenchWindow.java:1527)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1592)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1589)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1603)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:521)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$11.shellClosed(WBWRenderer.java:563)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:308)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1696)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4612)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:636)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:579)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+23:12:46,742 F: (OtpNodeProxy.java:311) : Runtime 18_21ea1__b0840a@DESKTOP-Chellong stopping
+23:12:46,761 F: (OtpNodeProxy.java:271) : Runtime 18_21ea1__b0840a@DESKTOP-Chellong terminated

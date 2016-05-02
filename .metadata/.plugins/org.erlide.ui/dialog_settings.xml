@@ -2,4 +2,7 @@
 <section name="Workbench">
 	<section name="ErlangElementSearchActions">
 	</section>
+	<section name="org.erlide.ui.dialogs.ProjectSelectionDialog">
+		<item value="true" key="ProjectSelectionDialog.show_all"/>
+	</section>
 </section>
