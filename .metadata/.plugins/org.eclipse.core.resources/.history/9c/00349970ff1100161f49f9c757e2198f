@@ -1,0 +1,176 @@
+%% @author Administrator
+%% @doc @todo Add description to test.
+
+-module(test).
+
+%% ====================================================================
+%% API functions
+%% ====================================================================
+-export([
+		 print/0,
+		 sum/1,
+		 get_index_for_list/2,
+		 odds_and_evens_acc/1,
+		 get_index_for_list_2/2,
+		 get_index_for_tuple/2,
+		 print_stacktrace/0,
+		 reverse_list/1,
+		 is_list_start/2,
+		 get_list_max/1,
+		 get_list_min/1,
+		 get_index_from_list/2,
+		 qsort/1,
+		 for/3
+		]).
+
+%% ====================================================================
+%% Internal functions
+%% ====================================================================
+
+%% Hello world
+print() ->
+	io:format("Hello World").
+%% è¨ç®åè¡¨çæ»å
+sum([]) ->
+	0;
+sum([H|L]) when is_number(H) ->
+	H + sum(L).
+
+%% forå¾ªç°
+for(Max,Max,F) ->
+	[F(Max)];
+for(Min,Max,F) ->
+	[F(Min)|for(Min + 1,Max,F)].
+
+%% 1ãå°åè¡¨ä¸­çinteger,float,atomè½¬æå­ç¬¦ä¸²å¹¶åå¹¶æä¸ä¸ªå­ç¬¦ä¸²ï¼[1,a,4.9,"sdfds"]	
+%% ç»æï¼"1a4.9sdfds"ï¼ç¦ç¨++ -- append concatå®ç°ï¼
+
+%% 2. 1> å¾å°åè¡¨æåç»ä¸­çæå®ä½çåç´ 
+%%	   {a,g,c,e}ç¬¬1ä½a
+%%     [a,g,c,e]ç¬¬1ä½aï¼ç¦ç¨erlang lists APIå®ç°ï¼
+
+get_index_for_tuple(T,N) ->
+	get_index_for_list(tuple_to_list(T),N).
+
+%% 2. 2> å¾å°åè¡¨æåç»ä¸­çæå®ä½çåç´ 
+%%	   {a,g,c,e}ç¬¬1ä½a
+%%     [a,g,c,e]ç¬¬1ä½aï¼ç¦ç¨erlang lists APIå®ç°ï¼
+
+get_index_for_list(L,N) when is_list(L),is_integer(N) ->
+	get_index_for_list(L,N,1).
+get_index_for_list([H|_],MAX,MAX) ->
+	H;
+get_index_for_list([_|L],MAX,N) ->
+  get_index_for_list(L,MAX,N + 1).
+
+%% 2. 2 ç¬¬äºç¨®
+get_index_for_list_2([H|T],1) ->
+ 	 H;
+get_index_for_list_2([_|T],N) when is_integer(N) ->
+	get_index_for_list_2(T,N - 1).
+
+%% 3. å°åç´ æå¥å¶åå¼
+
+odds_and_evens_acc(L) ->
+	odds_and_evens_acc(L,[],[]).
+odds_and_evens_acc([H|T],Odds,Evens) ->
+	case (H rem 2) of
+		1 -> odds_and_evens_acc(T,[H|Odds],Evens);
+		0 -> odds_and_evens_acc(T,Odds,[H|Evens])
+	end;
+odds_and_evens_acc([],Odds,Evens) ->
+	{Odds,Evens}.
+
+%% 4ãåå¹¶å¤ä¸ªåè¡¨
+merge_list(L1,L2) ->
+	lists:append(L1, L2).
+
+%% 5ãå é¤ææ¥è¯¢åç»ä¸­ç¬¬Nä¸ªä½ç½®çå¼ç­äºKeyçtupleï¼ç¦ç¨lists APIå®ç°ï¼
+
+%% 6ãæ¥è¯¢List1æ¯ä¸ºList2çåç¼ï¼ç¦ç¨string APIå®ç°ï¼
+is_list_start([H1|L1],[H2|L2]) when H1 =:= H2 ->
+	is_list_start(L1,L2);
+is_list_start([],_) ->
+	[yes];
+is_list_start(_,_) ->
+	[no].
+
+%% 7ãéè½¬åè¡¨æåç»ï¼ç¦ç¨lists APIå®ç°ï¼
+%% TODO
+reverse_list([H|L]) ->
+	reverse_list(L);
+reverse_list([]) ->
+	[].
+
+%% 8ãå¯¹åè¡¨è¿è¡æåº
+qsort([]) ->
+	[];
+qsort([Pivot|T]) ->
+	qsort([X || X <- T,X < Pivot])
+	++ [Pivot] ++
+	qsort([X || X <- T,X >= Pivot]).
+
+%% 9ãå¯¹ä¸ä¸ªå­ç¬¦ä¸²ææå®ç¬¦å­ååï¼ç¦ç¨string APIå®ç°)
+spilt_string(L,Char) ->
+	0.
+
+%% 10ãè·å¾å½åçå æ 
+print_stacktrace()->
+	io:format(erlang:get_stacktrace()).
+
+%% 11ãè·å¾åè¡¨ç»ä¸­çæå¤§æå°å¼ï¼ç¦ç¨APIå®ç°ï¼
+%% æå¤§å¼
+get_list_max([H|L]) when is_number(H) ->
+	get_list_max(H,L).
+get_list_max(Max,[H|L]) -> 
+	if Max =< H ->
+		get_list_max(H,L);
+	   Max > H ->
+		get_list_max(Max,L)
+	end;
+get_list_max(Max,[]) ->
+	Max.
+%% æå°å¼
+get_list_min([H|L]) when  is_number(H)->
+	get_list_min(H,L).
+get_list_min(Min,[H|L]) ->
+	if Min =< H ->
+		get_list_min(Min,L);
+	   Min > H ->
+		get_list_min(H,L)
+	end;
+get_list_min(Min,_) ->
+	Min.
+ 
+%% 12ãæ¥æ¾åç´ å¨åç»æåè¡¨ä¸­çä½ç½®
+get_index_from_list(L,Char) ->
+	get_index_from_list(L,Char,1).
+get_index_from_list([H|L],Char,Index) ->
+	if
+		H =:= Char ->
+			get_index_from_list([],Char,Index);
+		true ->
+			get_index_from_list(L,Char,Index + 1)
+	end;
+get_index_from_list([],Char,Index) ->
+	Index.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
