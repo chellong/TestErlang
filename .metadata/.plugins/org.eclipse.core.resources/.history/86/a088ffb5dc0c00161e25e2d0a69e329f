@@ -1,3 +1,0 @@
-%% @doc @todo Add description to test.
-
-io:format("this outputs one Erlang term: ~w~n", [hello]).
