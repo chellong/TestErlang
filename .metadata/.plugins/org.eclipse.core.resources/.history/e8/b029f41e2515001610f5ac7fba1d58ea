@@ -1,0 +1,33 @@
+
+-module(test_2).
+
+%% ====================================================================
+%% API functions
+%% ====================================================================
+
+-export([
+		 format_tuple/1
+		]).
+
+%% ====================================================================
+%% Internal functions
+%% ====================================================================
+
+combine(L1, L2) -> 
+	combine_list(lists:append(L1,L2), []).
+combine_list([], List) -> 
+	List;
+combine_list([H|T], List) -> 
+	combine_list(H, T,[], List).
+combine_list(X, [], L, List) -> 
+	combine_list(L, lists:append(List, [X]));
+combine_list(X, [H|T], ListTemp, List) -> 	
+		{K1, V1} = X, 
+		{K2, V2} = H,
+		case K1 =:= K2 of
+			true -> 
+				Element = {K1, V1 + V2},
+				combine_list([Element] ++ ListTemp ++ T, List);
+			false -> 
+				combine_list(X, T, lists:append(ListTemp, [H]), List)
+		end.	

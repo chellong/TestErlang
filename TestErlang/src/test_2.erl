@@ -1,0 +1,82 @@
+%% @author Administrator
+%% @doc @todo Add description to test.
+
+-module(test_2).
+
+%% ====================================================================
+%% API functions
+%% ====================================================================
+
+-export([
+		 sort_list/1,
+		 reverse_list_n/2,
+		 format_string/1
+		]).
+
+%% ====================================================================
+%% Internal functions
+%% ====================================================================
+
+%% 难度3星	2、排序[{"a",40},{"f",11},{"c",6},{"d",14}], 
+%% 	以元组的值进行降序 优先用API
+sort_list(L) -> lists:reverse(lists:keysort(2, L)).
+
+%% 	[{money,200},{goods,1001,1},{money,150},{rmb,600},{goods,71143,1},{goods,1001,1},{card,3001,281479271678954},{card,4001,281479271678955}]
+%%  难度2星	5、将字符串"money:200|rmb:600|goods,71143:6|money:100|goods,71142:5"
+%%  解析成 [{money,300},{rmb,600},{goods,71143,6},{goods,71142,5}]
+
+format_string(String) ->
+	format_string(string:tokens(String, "|"),[]).
+format_string([],Result) ->
+	Result;
+format_string([H1|L1],Result) ->
+	format_string(L1,Result ++ format_string(H1,{1,[],[],[]},[])).
+format_string([],{_,X,Y,Z},Result) ->
+	[chenge_to(X,Y,Z)|Result];
+format_string([H|L],{Temp,X,Y,Z},Result) ->
+	if ([H] =:= ":" ) or ([H] =:= ",") 	->
+		   format_string(L,{(Temp + 1),X,Y,Z},Result);
+	   true ->
+			if
+				Temp == 1->{Xn,Yn,Zn} = {X++[H],Y,Z};
+				Temp == 2->{Xn,Yn,Zn} = {X,Y++[H],Z};
+				Temp == 3->{Xn,Yn,Zn} = {X,Y,Z++[H]}
+			end,		
+			format_string(L,{Temp,Xn,Yn,Zn},Result)
+	end.
+
+chenge_to(X,[],[]) -> 
+    {list_to_atom(X)};
+chenge_to(X,Y,[]) -> 
+    {list_to_atom(X),list_to_integer(Y)};
+chenge_to(X,Y,Z) -> 
+    {list_to_atom(X),list_to_integer(Y),list_to_integer(Z)}.
+
+
+%% 难度1星	8、指定列表第几位之后的数据进行反转。
+%% 如：指定[2,3,5,6,7,2]第3位后进行反转
+%%（谢绝一切API(lists:concat,lists:reverse等)、++、--方法）	
+
+reverse_list_n(L,N) ->
+	reverse_list_n(L,N,[],[]).
+reverse_list_n(_,0,Before,After) ->	
+	m_append(Before,reverse_list(After));
+reverse_list_n([H|L],N,Before,_After) ->
+	reverse_list_n(L,N - 1,[H|Before],L).
+%% 添加
+m_append([],Result) ->
+	Result;
+m_append([H|L],Result) ->
+	m_append(L,[H|Result]).
+%% 反转
+reverse_list([H|L]) ->
+	reverse_list(L,[H]).
+reverse_list([H|L],Result) ->
+	reverse_list(L,[H|Result]);
+reverse_list([],Result) ->
+	Result.
+
+
+
+
+

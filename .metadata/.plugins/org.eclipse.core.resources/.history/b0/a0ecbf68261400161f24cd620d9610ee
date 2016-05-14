@@ -1,0 +1,70 @@
+%% @author Administrator
+%% @doc @todo Add description to test_catch.
+
+
+-module(test_0).
+
+%% ====================================================================
+%% API functions
+%% ====================================================================
+-export([
+		 sum/1,
+		 a_b/1,
+		 m_tuple_to_list/1,
+		 merge_list/2,
+		 random_upset_tuple/1
+		]).
+
+%% ====================================================================
+%% Internal functions
+%% ====================================================================
+
+%% 难度3星	
+%%	1、合并列表, 相同key的，将值进行合并，
+%% 	[{a,1},{b,2},{c,3},{b,1}],
+%% 	[{b,4},{c,5},{d,6},{d,2}]
+merge_list(L1,L2) -> if_same((L1 ++ L2),[]).
+if_same([H|L],Result) ->
+0.	
+	
+%% 难度2星	
+%%	4、随机打乱元组，{a,b,c,b,4,5,6,7}
+random_upset_tuple(T) ->
+		get_index_list(tuple_to_list(T),random:uniform(tuple_size(T))).
+
+get_index_list([H|_],1) ->
+ 	 H;
+get_index_list([_|L],N) when is_integer(N) ->
+	get_index_list(L,N - 1).
+%% 求和
+sum([]) -> 0;
+sum([H|L]) when is_number(H) -> H + sum(L).
+%% tuple转list
+m_tuple_to_list(T) ->
+	tuple_to_list_1(T,tuple_size(T),[]).
+tuple_to_list_1(T,1,Result) ->
+	[element(1,T)|Result];
+tuple_to_list_1(T,N,Result) ->
+	tuple_to_list_1(T,N-1,[element(N,T)|Result]).
+%% 难度1星	
+%%	7、{8,5,2,9,6,4,3,7,1} 将此元组中的奇数进行求和后除3的商（得值A），
+%%	并将偶数求和后剩3（得值B），然后求A+B结果（谢绝一切API）
+a_b(T) ->
+	(sum([X || X <- m_tuple_to_list(T), X rem 2 =:= 1]) / 3) +
+	(sum([X || X <- m_tuple_to_list(T), X rem 2 =:= 0]) *3).
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

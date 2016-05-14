@@ -1,0 +1,82 @@
+%% @author Administrator
+%% @doc @todo Add description to test_catch.
+
+
+-module(test_2).
+
+%% ====================================================================
+%% API functions
+%% ====================================================================
+-export([
+		 sum/1,
+		 a_b/1,
+		 m_tuple_to_list/1,
+		 merge_list/2,
+		 random_upset_tuple/1
+		]).
+
+%% ====================================================================
+%% Internal functions
+%% ====================================================================
+
+%% 	[{a,1},{b,2},{c,3},{b,1}],
+%% 	[{b,4},{c,5},{d,6},{d,2}]
+merge_list(L1,L2) -> 
+	if_same((L1 ++ L2),[]).
+if_same([],Result) ->
+	Result;
+if_same([H|L],Result) ->
+	if_same(H,L,Result).
+if_same({K1,V1},[{K2,V2}|L],Result) ->
+	case K1 =:= K2 of
+		ture ->
+			[{K1,V1 + V2}|Result];
+		false ->
+			if_same({K1,V1},L,Result)	
+	end.
+	
+%%	打乱 {a,b,c,b,4,5,6,7}
+random_upset_tuple(T) ->
+	random_upset_tuple(tuple_to_list(T),[]).
+random_upset_tuple([],Result) ->
+	Result;
+random_upset_tuple(L,Result) ->
+	Index = random:uniform(length(L)),
+	X = get_index_for_list(L,Index),
+	L1 = lists:delete(X, L),
+	random_upset_tuple(L1,[X | Result]).
+%% 获取指定位置的元素
+get_index_for_list([H|T],1) ->
+ 	 H;
+get_index_for_list([_|T],N) when is_integer(N) ->
+	get_index_for_list(T,N - 1).
+%%求和
+sum([]) -> 0;
+sum([H|L]) when is_number(H) -> H + sum(L).
+
+m_tuple_to_list(T) ->
+	tuple_to_list_1(T,tuple_size(T),[]).
+tuple_to_list_1(T,1,Result) ->
+	[element(1,T)|Result];
+tuple_to_list_1(T,N,Result) ->
+	tuple_to_list_1(T,N-1,[element(N,T)|Result]).
+
+a_b(T) ->
+	(sum([X || X <- m_tuple_to_list(T), X rem 2 =:= 1]) / 3) +
+	(sum([X || X <- m_tuple_to_list(T), X rem 2 =:= 0]) *3).
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

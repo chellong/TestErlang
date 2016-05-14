@@ -1,56 +1,34 @@
-23:36:34,727 I: (ErlangCore.java:64) : Starting CORE Thread[main,6,main]
-23:36:34,743 I: (ErlangCore.java:79) : *** starting Erlide v0.29.12.201507101554 (core=0.24.13.201507101554) (model api=0.24.12.201507101554) *** (UTF-8) ui
-23:36:34,752 I: (ErlangCore.java:86) : Started CORE
-23:36:34,753 F: (ErlangPlugin.java:88) : Core started
-23:36:38,289 F: (ErlangHostnameRetriever.java:40) : Test long hostname: null
-23:36:38,291 W: (ErlangHostnameRetriever.java:46) : Can't use null as long name
-23:36:49,048 F: (ErlangHostnameRetriever.java:40) : Test long hostname: DESKTOP-Chellong
-23:36:50,199 W: (ErlangHostnameRetriever.java:46) : Can't use DESKTOP-Chellong as long name
-23:36:51,312 F: (ErlangHostnameRetriever.java:40) : Test short hostname: DESKTOP-Chellong
-23:36:51,374 F: (HostnameUtils.java:74) : Detected:: DESKTOP-Chellong && null
-23:36:51,484 F: (BackendActivator.java:25) : Backend plugin started
-23:36:51,735 I: (ErlideUIPlugin.java:130) : Starting UI Thread[main,6,main]
-23:36:51,855 F: (ModelActivator.java:19) : Starting Erlang model api
-23:36:52,004 F: (BackendFactory.java:42) : Create ide backend 18.3.0
-23:36:52,005 F: (BackendFactory.java:56) : Create backend 21ea1__908217_erlide
-23:36:52,323 F: (OtpNodeProxy.java:301) : Runtime 21ea1__908217_erlide@DESKTOP-Chellong starting
-23:36:52,324 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 21ea1__908217_erlide@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
-23:36:52,377 F: (OtpNodeProxy.java:212) : 21ea1__908217_erlide@DESKTOP-Chellong: waiting connection to peer... 
-23:36:52,787 F: (OtpNodeProxy.java:219) : connected!
-23:36:52,895 F: (OtpNodeProxy.java:306) : Runtime 21ea1__908217_erlide@DESKTOP-Chellong running
-23:36:53,420 F: (ModelActivator.java:30) : Started model api
-23:36:53,522 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_190838e@DESKTOP-Chellong'}
-23:36:53,522 I: (ErlideUIPlugin.java:152) : Started UI
-23:36:53,523 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
-23:40:26,077 F: (BackendFactory.java:49) : Create build backend 18
-23:40:26,079 F: (BackendFactory.java:56) : Create backend 18_21ea1__93c65f
-23:40:26,080 F: (OtpNodeProxy.java:301) : Runtime 18_21ea1__93c65f@DESKTOP-Chellong starting
-23:40:26,081 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 18_21ea1__93c65f@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
-23:40:26,113 F: (OtpNodeProxy.java:212) : 18_21ea1__93c65f@DESKTOP-Chellong: waiting connection to peer... 
-23:40:26,544 F: (OtpNodeProxy.java:219) : connected!
-23:40:26,645 F: (OtpNodeProxy.java:306) : Runtime 18_21ea1__93c65f@DESKTOP-Chellong running
-23:40:26,850 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_193c67b@DESKTOP-Chellong'}
-23:40:26,851 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
-23:40:27,356 F: (ErlTextHover.java:297) : otp doc {error,error}...
-23:40:28,175 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-23:40:40,424 F: (InternalBuilder.java:202) : Will compile 2 resource(s)
-23:40:41,129 F: (ErlTextHover.java:297) : otp doc {error,error}...
-23:40:58,128 F: (ErlTextHover.java:297) : otp doc {local,asc_list,2}...
-23:41:09,513 F: (ErlTextHover.java:297) : otp doc {local,module,1}...
-23:41:10,235 F: (ErlTextHover.java:297) : otp doc {error,error}...
-23:41:11,430 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-23:41:47,399 F: (InternalBuilder.java:202) : Will compile 3 resource(s)
-23:41:50,587 F: (ErlTextHover.java:297) : otp doc {error,error}...
-23:42:00,842 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-23:42:01,079 F: (ErlTextHover.java:297) : otp doc {error,{variable,'_'}}...
-23:42:01,994 F: (ErlTextHover.java:297) : otp doc {local,get_index_list,2}...
-23:42:02,271 F: (ErlTextHover.java:297) : otp doc {error,{variable,'T'}}...
-23:42:03,946 F: (ErlTextHover.java:297) : otp doc {local,get_index_list,2}...
-23:42:09,728 F: (InternalBuilder.java:202) : Will compile 1 resource(s)
-23:42:10,647 F: (ErlTextHover.java:297) : otp doc {ok,"<a name="is_integer-1"></a><span class="bold_...
-23:42:15,302 F: (ErlTextHover.java:297) : otp doc {error,{variable,'Result'}}...
-23:42:25,053 F: (InternalBuilder.java:202) : Will compile 3 resource(s)
-23:42:29,509 F: (OtpNodeProxy.java:311) : Runtime 18_21ea1__93c65f@DESKTOP-Chellong stopping
-23:42:29,516 F: (OtpNodeProxy.java:311) : Runtime 21ea1__908217_erlide@DESKTOP-Chellong stopping
-23:42:29,600 F: (OtpNodeProxy.java:271) : Runtime 18_21ea1__93c65f@DESKTOP-Chellong terminated
-23:42:29,604 F: (OtpNodeProxy.java:271) : Runtime 21ea1__908217_erlide@DESKTOP-Chellong terminated
+23:08:20,550 I: (ErlangCore.java:64) : Starting CORE Thread[main,6,main]
+23:08:20,550 I: (ErlangCore.java:79) : *** starting Erlide v0.29.12.201507101554 (core=0.24.13.201507101554) (model api=0.24.12.201507101554) *** (UTF-8) ui
+23:08:20,565 I: (ErlangCore.java:86) : Started CORE
+23:08:20,565 F: (ErlangPlugin.java:88) : Core started
+23:08:24,065 F: (ErlangHostnameRetriever.java:40) : Test long hostname: null
+23:08:24,065 W: (ErlangHostnameRetriever.java:46) : Can't use null as long name
+23:08:25,175 F: (ErlangHostnameRetriever.java:40) : Test long hostname: DESKTOP-Chellong
+23:08:26,331 W: (ErlangHostnameRetriever.java:46) : Can't use DESKTOP-Chellong as long name
+23:08:27,393 F: (ErlangHostnameRetriever.java:40) : Test short hostname: DESKTOP-Chellong
+23:08:27,456 F: (HostnameUtils.java:74) : Detected:: DESKTOP-Chellong && null
+23:08:27,534 F: (BackendActivator.java:25) : Backend plugin started
+23:08:27,753 I: (ErlideUIPlugin.java:130) : Starting UI Thread[main,6,main]
+23:08:27,862 F: (ModelActivator.java:19) : Starting Erlang model api
+23:08:28,034 F: (BackendFactory.java:42) : Create ide backend 18.3.0
+23:08:28,034 F: (BackendFactory.java:56) : Create backend 21ea1__cfbe02_erlide
+23:08:28,315 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 21ea1__cfbe02_erlide@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+23:08:28,315 F: (OtpNodeProxy.java:301) : Runtime 21ea1__cfbe02_erlide@DESKTOP-Chellong starting
+23:08:28,331 F: (OtpNodeProxy.java:212) : 21ea1__cfbe02_erlide@DESKTOP-Chellong: waiting connection to peer... 
+23:08:28,737 F: (OtpNodeProxy.java:219) : connected!
+23:08:29,331 F: (OtpNodeProxy.java:306) : Runtime 21ea1__cfbe02_erlide@DESKTOP-Chellong running
+23:08:29,346 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_fcfbf1b@DESKTOP-Chellong'}
+23:08:29,346 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+23:08:29,393 F: (ModelActivator.java:30) : Started model api
+23:08:29,456 I: (ErlideUIPlugin.java:152) : Started UI
+23:10:50,067 F: (BackendFactory.java:49) : Create build backend 18
+23:10:50,068 F: (BackendFactory.java:56) : Create backend 18_21ea1__d1e8d4
+23:10:50,069 F: (OtpNodeProxy.java:301) : Runtime 18_21ea1__d1e8d4@DESKTOP-Chellong starting
+23:10:50,070 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.3/bin/erl", -sname, 18_21ea1__d1e8d4@DESKTOP-Chellong, -setcookie, erlide] *** E:\WorkSpace\TestErlang
+23:10:50,093 F: (OtpNodeProxy.java:212) : 18_21ea1__d1e8d4@DESKTOP-Chellong: waiting connection to peer... 
+23:10:50,511 F: (OtpNodeProxy.java:219) : connected!
+23:10:50,612 F: (OtpNodeProxy.java:306) : Runtime 18_21ea1__d1e8d4@DESKTOP-Chellong running
+23:10:50,893 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_fd1e8e9@DESKTOP-Chellong'}
+23:10:50,894 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+23:10:51,613 F: (ErlTextHover.java:297) : otp doc {local,is_in_list,5}...

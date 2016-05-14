@@ -10,6 +10,17 @@
 <booleanAttribute key="org.erlide.core.console" value="true"/>
 <stringAttribute key="org.erlide.core.cookie" value="erlide"/>
 <booleanAttribute key="org.erlide.core.has_backend" value="false"/>
+<listAttribute key="org.erlide.core.interpretModules">
+<listEntry value="TestErlang:client.erl"/>
+<listEntry value="TestErlang:helloWorld.erl"/>
+<listEntry value="TestErlang:lib_misc.erl"/>
+<listEntry value="TestErlang:msg.erl"/>
+<listEntry value="TestErlang:server.erl"/>
+<listEntry value="TestErlang:test_0.erl"/>
+<listEntry value="TestErlang:test_1.erl"/>
+<listEntry value="TestErlang:test_2.erl"/>
+<listEntry value="TestErlang:test_3.erl"/>
+</listAttribute>
 <booleanAttribute key="org.erlide.core.loadAllNodes" value="false"/>
 <booleanAttribute key="org.erlide.core.longName" value="false"/>
 <stringAttribute key="org.erlide.core.nodeName" value="TestErlang"/>
